@@ -1,3 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+.bgc{
+    background-color: #6F6A7D;
+}
+
+/* CSS */
+
+/* Homepage Background */
+.bg-homepage {
+    background-image: linear-gradient(to right bottom, rgba(125, 106, 124, 0.6), rgba(111,106,125, 0.6)), url(https://c4.wallpaperflare.com/wallpaper/133/969/139/artwork-nature-landscape-fantasy-art-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  
+  /* Explore Page Background */
+  .bg-explorePage {
+    background-image: linear-gradient(to right bottom, rgba(111,106,125, 0.6), rgba(111,106,125, 0.6)), url(https://i.pinimg.com/originals/da/57/94/da579413bf1628ac0488e51dbd8ad5ff.png);
+  }
+  .glass {
+    backdrop-filter: blur(20px) saturate(100%);
+    -webkit-backdrop-filter: blur(20px) saturate(100%);
+    background-color: rgba(111, 106, 125, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    
+}

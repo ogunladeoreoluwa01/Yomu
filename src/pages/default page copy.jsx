@@ -1,5 +1,4 @@
 import NavBar from "./components/nav";
-import Carosel from "./components/carosel";
 import { Link,NavLink} from "react-router-dom";
 
 
@@ -59,17 +58,7 @@ const Home = () => {
   </section>
   <section className="flex md:gap-10 gap-5 w-[98vw] items-start">
   <NavBar/>
-  {/* main section */}
   <section className="w-[85%]  border">
-    {/* carosel live section */}
- <section className="text-white flex flex-col gap-2">
-<h1 className="font-bold font-main text-4xl px-6">Live</h1>
-<span className="">
-<Carosel/>
-</span>
-
- </section>
-
 
   </section>
   </section>
